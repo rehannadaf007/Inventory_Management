@@ -1,70 +1,59 @@
-<h1 align="center">📦 Inventory Management System</h1>
+# 📦 Inventory Management System
 
-<p align="center">
-✨ A Smart <b>Java Console Application</b> for managing inventory, tracking stock, and calculating profit/loss efficiently.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Backend-blue?style=for-the-badge&logo=java">
-  <img src="https://img.shields.io/badge/Console-App-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Data-HashMap-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/OOP-Concepts-purple?style=for-the-badge">
-</p>
+A **Java console-based application** for managing product inventory, tracking stock, and calculating profit/loss using efficient data structures.
 
 ---
 
-## 🌟 Features
-
-✨ Easy product management  
-📦 Add / Update stock  
-💰 Profit & Loss calculation  
-📊 Purchase reports  
-⚡ Fast data handling using HashMap  
-🧠 Object-Oriented Design  
+## 🚀 Features
+- Add and manage products  
+- Purchase (increase stock)  
+- Sell/Ship products  
+- View product details  
+- Calculate profit and loss  
+- Generate purchase reports  
 
 ---
 
-## 🖥️ User Menu
+## 🧠 Tech Stack
+- **Java** (Core Programming)  
+- **HashMap** (Data Storage)  
+- **OOP Concepts**  
 
-```bash
-1. List all products
-2. Display individual product info
-3. Purchase (add stock)
-4. Shipping (sell stock)
-5. Balance stock
-6. Calculate loss and profit
-7. Purchase report
-8. Exit
+---
 
-        👤 User
-          │
-          ▼
-     Main (UI Layer)
-          │
-          ▼
-   StockManager (Logic)
-          │
-          ▼
-     Product (Model)
-          │
-          ▼
-   Inventory (HashMap)
+## 📂 Project Structure
 
-Start → Menu → User Input → Process → Update Stock → Profit/Loss → Exit
 
-📦 inventory_management
- ┣ 📜 Main.java
- ┣ 📜 Product.java
- ┣ 📜 StockManager.java
- ┗ 📜 README.md
+---
 
-Product p = new Product("P001", "Laptop", 1200.00, 5);
+## ⚙️ How to Run
 
-Map<String, Product> inventory = new HashMap<>();
+### Compile
 
-javac Main.java Product.java StockManager.java
 
-java Main
+### Run
 
-✔ Product Purchased Successfully!
-📦 Laptop → Stock: 10 units
+
+---
+
+## 📈 Key Concepts Used
+- Object-Oriented Programming (OOP)  
+- Data Structures (HashMap)  
+- Modular Design  
+
+---
+
+## 🚀 Future Improvements
+- GUI (Java Swing / JavaFX)  
+- Database Integration (MySQL)  
+- Billing System  
+- Web Version  
+
+---
+
+## 👨‍💻 Author
+**Rehan Nadaf**
+
+---
+
+⭐ *If you like this project, consider starring the repository!*
