@@ -22,6 +22,11 @@ A **Java console-based application** for managing product inventory, tracking st
 ---
 
 ## 📂 Project Structure
+inventory_management/
+├── Main.java
+├── Product.java
+├── StockManager.java
+└── README.md
 
 
 ---
@@ -29,9 +34,11 @@ A **Java console-based application** for managing product inventory, tracking st
 ## ⚙️ How to Run
 
 ### Compile
+javac Main.java Product.java StockManager.java
 
 
 ### Run
+java Main
 
 
 ---
